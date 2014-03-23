@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Анкета</title>
+	[[blocks/default/head.html*1]]
+</head>
+<body>
+    <div class="bg">
+        <div class = "wrapper">
+            <div class = "maincontent">
+                <div class="container">
+                    <div class="text_thanks text_thanks_anketa">
+                        <p>Поздравляем!</p>
+                        <p>Вы подписались на дайджест блога Ильи Варламова</p>
+                        <p class="small_thanks">Чтобы получать более актуальные для вас письма, заполните анкету:</p>
+                    </div>
+                </div>
+                    <form action="" class="form_anketa" method="POST">
+                        <div class="form_bg">
+                            <div class="container">
+                                <div class="form_line">
+                                    <label class="label_anketa">Имя:</label>
+                                    <input type="text" class="input_anketa">
+                                </div>
+                                <div class="form_line">
+                                    <div class="inlineblock">
+                                        <label class="label_anketa">Страна:</label>
+                                        <input type="text" class="input_anketa">
+                                    </div>
+                                    <div class="inlineblock">
+                                        <label class="label_anketa">Город:</label>
+                                        <input type="text" class="input_anketa">
+                                    </div>
+                                </div>
+                                <div class="form_line">
+                                    <label class="label_anketa">Пол:</label>
+                                    <div>
+                                        <input type="radio" name="sex" value="male" checked="checked">
+                                        <input type="radio" name="sex" value="famele">
+                                    </div>
+
+                                    <div class="change_sex">
+                                        <div class="radiobtn">М</div>
+                                        <div class="radiobtn">Ж</div>
+                                    </div>
+                                </div>
+                                <div class="form_line">
+                                    <label class="label_anketa">Год рождения:</label>
+                                    <input type="text" class="input_anketa year">
+                                </div>
+                                <div class="form_line">
+                                    <label class="label_anketa">На каком языке присылать письма?</label>
+                                    <div>
+                                        <input type="radio" name="lang" value="English" checked="checked">
+                                        <input type="radio" name="lang" value="Russian">
+                                    </div>
+
+                                    <div class="change_lang">
+                                        <div class="radiobtn">English</div>
+                                        <div class="radiobtn">Русский</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_btn_bg">
+                            <div class="container">
+                                <input type="submit" value="Сохранить" class="save_btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WEB STUDIO PINGVISHA - http://pingvisha.ru  -->
+</body>
+</html>
