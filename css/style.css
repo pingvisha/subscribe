@@ -1,0 +1,26 @@
+.container {
+  width: 98em;
+  margin: 0 auto;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+.wrapper .empty {
+  position: relative;
+}
+footer {
+}
+/*News*/
+.list_news li{
+    margin-bottom: 20px;
+}
+/*Bootstrap*/
+.icon-group {
+    background: url('../img/icons/icon_group.png') 0 0 no-repeat !important;
+}
+.active .icon-group {
+    background: url('../img/icons/icon_group.png') 0 -24px no-repeat !important;
+}
