@@ -389,6 +389,12 @@ h1 {
 .social_link .vk:hover {
   background-position: 0 -581px;
 }
+.social_link .ok {
+    background-position: 0 -664px;
+}
+.social_link .ok:hover {
+    background-position: 0 -747px;
+}
 .text_verification {
   font-size: 26px;
   font-weight: bold;
