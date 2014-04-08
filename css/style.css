@@ -537,3 +537,24 @@ footer {
   width: 100%;
 }
 
+/*Page email used*/
+.email_used {
+    font-size: 20px;
+    font-weight: normal;
+    color: #002023;
+    margin-bottom: 50px;
+    margin-top: -18px;
+    line-height: 25px;
+}
+.email_used a{
+    color: #186F88;
+}
+.email_used a:hover{
+    color: #e00000;
+}
+.label_email_used {
+    color: #d00000;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 4px;
+}
