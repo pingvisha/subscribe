@@ -558,3 +558,33 @@ footer {
     font-style: italic;
     margin-top: 4px;
 }
+/*Iframe*/
+.iframe1, .iframe2, .iframe3  {
+    padding-left: 15px;
+}
+.iframe1 .title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.iframe1 .subscribe_form {
+    margin-bottom: 5px;
+}
+.iframe2 .title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.iframe2 .subscribe_form {
+    margin-bottom: 5px;
+}
+.iframe2 .title_text {
+    margin-left: 0;
+    width: auto;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.iframe3 .subscribe_form {
+    margin: 17px 0;
+}
+iframe {
+    margin-bottom: 30px;
+}
